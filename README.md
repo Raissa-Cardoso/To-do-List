@@ -14,7 +14,7 @@ Este projeto foi dividido em backend e frontend.
 
 Após baixar o código do projeto:
  1) Instalar as dependências necessárias
- 2) Dentro da pasta backend rodar: **`rails s`**
+ 2) Dentro da pasta rodar: **`rails s`**
 
 
 ## :hammer: Funcionalidades do projeto
