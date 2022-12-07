@@ -1,0 +1,28 @@
+<p style="color: green"><%= notice %></p>
+
+<p>
+  <strong>Nome:</strong>
+  <%= @task.name %>
+</p>
+
+<p>
+  <strong>Descricao:</strong>
+  <%= @task.description%>
+</p>
+
+<p>
+  <strong>Inicio:</strong>
+  <%= @task.start %>
+</p>
+
+<p>
+  <strong>Previsao:</strong>
+  <%= @task.expectedDate %>
+</p>
+
+<p>
+  <strong>Status:</strong>
+  <%= @task.status %>
+</p>
+
+<%= link_to 'Back', tasks_path %>
